@@ -1,5 +1,5 @@
 # SpamDetector
-SpamDetector Webapplication. Created by using Flask.
+SpamDetector Web App. Created by using Flask.
 
 # Model 
 Multinomial Naive Bayes Classifier
