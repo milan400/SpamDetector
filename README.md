@@ -15,3 +15,6 @@ Multinomial Naive Bayes Classifier
 
 # Predict Page:
 ![alt text](https://github.com/milan400/SpamDetector/blob/master/process_image/output.png)
+
+# Checkout this WebApp
+https://nbspamclassifier.herokuapp.com/?fbclid=IwAR0c8QwrnAJEfEx1dwP-6MkySWMFuIyzfe8Cxw5j6J-KFInFXhUe258fAjU
