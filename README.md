@@ -5,9 +5,9 @@ SpamDetector Webapplication. Created by using Flask.
 Multinomial Naive Bayes Classifier
 
 # How to run this program
-1. Download this Repo
+1. Download this Repository
 2. Install all the library listed in requirements.txt
-3.Open a terminal and type: 'python app.py'
+3. Open a terminal and type: 'python app.py'
 
 # Web Application
 # Home Page:
