@@ -1,11 +1,17 @@
 # SpamDetector
-This SpamDetector Webapplication. 
+SpamDetector Webapplication. Created by using Flask.
 
-# Model Developed
-Multinomial naive Bayes
+# Model 
+Multinomial Naive Bayes Classifier
 
 # How to run this program
 1. Download this Repo
 2. Install all the library listed in requirements.txt
 3.Open a terminal and type: 'python app.py'
 
+# Web Application
+# Home Page:
+![alt text](https://github.com/milan400/SpamDetector/blob/master/process_image/input.png)
+
+# Predict Page:
+![alt text](https://github.com/milan400/SpamDetector/blob/master/process_image/output.png)
