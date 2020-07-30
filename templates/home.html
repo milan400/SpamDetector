@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<!-- <link rel="stylesheet" type="text/css" href="../static/css/styles.css"> -->
+	<meta charset="utf-8">
+	
+
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='bootstrap.css') }}">
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='bootstrap-grid.css') }}">
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='bootstrap-reboot.css') }}">
+
+	<style>
+	body{
+		background-color: #0BB5FF;
+	}
+
+		#upperpart{
+			border-radius: 30px;
+	    	-webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+	    	position: relative;
+		    color: white;
+		    margin:auto;
+		    background-image: url('../static/background.png');
+		    padding: 70px;
+		    margin-top: 150px;
+		    padding-left: 140px;
+		    width: 800px;
+		    
+
+		    padding-top: 100px;
+		}
+
+		#button_submit{
+			margin-left: 190px;
+			background-color: black;
+          	color: #ffffff;
+          	border-radius: 10px;
+          	width: 100px;
+
+          	margin-top: 30px;
+		}
+		#message_para{
+			margin-bottom: 20px;
+		}
+		
+	</style>
+</head>
+<body>
+
+	<div id="upperpart" class='row'>
+		<div class='col-"-'>
+
+	
+			<header>
+				<div class="container">
+					<div id="brandname">
+						<h2>Machine Learning App with Flask</h2>
+					</div>
+					<h3>Spam Detector For Email Messages</h3>
+					
+				</div>
+			</header>
+
+			<div class="ml-container">
+
+				<form action="{{ url_for('predict')}}" method="POST">
+					<br>
+					<p id="message_para">Enter Your Message Here</p>
+					<!-- <input type="text" name="comment"/> -->
+					<textarea name="message" rows="6" cols="50"></textarea>
+					
+					<input id="button_submit" type="submit" class="btn-info" value="predict">
+					
+				</form>
+			
+			</div>
+		</div>
+	</div>
+	
+	
+
+</body>
+</html>
